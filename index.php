@@ -153,6 +153,17 @@ $mi == 53 || $mi == 54){
 
 tt();
 
+//function tt_cool(){
+
+	if (preg_match("[[02345]?1$]", "11")){
+	echo "huy";
+	}	
+	else echo "111";
+//}
+echo "<br>";
+//echo preg_match("[23]", date("G i");
+
+
 
 ?>
   </body>
