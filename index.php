@@ -152,14 +152,31 @@ $mi == 53 || $mi == 54){
 }
 
 tt();
-
-//function tt_cool(){
-
-	if (preg_match("[[02345]?1$]", "11")){
-	echo "huy";
+echo "<br>";
+function tt_cool(){
+$pat_1 = '^[02345]?1$';
+$pat_2 = '^[02345]?[234]$';
+	if (preg_match($pat_1, date("G"))){
+		$c = "час";
 	}	
-	else echo "111";
-//}
+	elseif (preg_match($pat_2, date("G"))) {
+		$c = "часа";
+	}
+	else $c = "часов";
+
+	if (preg_match($pat_1, date("i"))) {
+		$m = "минута";
+	}
+	if (preg_match($pat_2, date("i"))) {
+		$m = "минуты";
+	}
+	else $m = "минут";
+echo date("G $c i $m");
+}
+tt_cool();
+
+
+
 echo "<br>";
 //echo preg_match("[23]", date("G i");
 
