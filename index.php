@@ -1,5 +1,6 @@
 <html>
 <head><title> zagolovok </title></head>
+<meta charset="utf-8">
 <body>
 	primer raboti php:<br/>
 	<?php
@@ -31,7 +32,7 @@ function rec($x){
 while ($x <= 15) {
 	echo "$x ";
 	$x = $x + 1;
-}
+	}
 }	
 ab(7, 5);
 ab(4, 5);
@@ -192,8 +193,8 @@ else $s = "секунд";
 
 echo date("G $c i $m s $s");
 echo "<br>";
-echo " $s";
 }
+
 tt_cool();
 echo "<br>";
 
