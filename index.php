@@ -1,6 +1,4 @@
 <html>
-
-
 	<!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function (d, w, c) {
@@ -29,7 +27,7 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/36955145" style="position:absolute; left:<F4>-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-<head><title> zagolovok </title></head>
+<head><title> Quīnta essentia in Internet </title></head>
 <meta charset="utf-8">
 <body>
 	
@@ -43,33 +41,25 @@
   ga('send', 'pageview');
 
 </script>
-
-	primer raboti php:<br/>
-	<?php
-	$x = 5;
-	echo $x;
-	echo ' hello!';
-?>
 <font size = "50"><center><br><marquee direction = "up", bgcolor = "red", width = "200"></center>
 ХУЙ!!!
 </marquee></font><br>
-<?php
+<?php 
 
 function ab($a, $b) {
 if ($a >= 0 && $b >= 0){
 	$c = $a - $b;
-	echo "$c<br>";
+	echo "$c ";
 }
 elseif ($a < 0 && $b < 0){
 	$c = $a * $b;
-	echo "$c<br>";
+	echo "$c ";
 }
 else {
 	$c = $a + $b;
-	echo "$c<br>";
+	echo "$c ";
 }
 }
-
 function rec($x){
 while ($x <= 15) {
 	echo "$x ";
@@ -79,6 +69,7 @@ while ($x <= 15) {
 ab(7, 5);
 ab(4, 5);
 ab(0, 0);
+echo "<br>";
 $x = 7;
 switch ($x){
 case 0: rec($x);break;
@@ -239,6 +230,39 @@ echo "<br>";
 
 tt_cool();
 echo "<br>";
+
+$xx = 0;
+while ($xx <= 100) {
+	if ($xx % 3 == 0) {
+		echo "$xx ";
+	}
+$xx++;
+}
+echo "<br>";
+$xxx = -5;
+do {
+	if ($xxx == 0) $_char = "Это ноль";
+	elseif ($xxx % 2 == 0) $_char = "Это четное число";
+	else $_char = "Это нечетное число";
+
+	echo "$xxx - $_char <br> " ;
+	$xxx++;
+} while ($xxx <= 5)
+
+?>
+
+<br>
+<?php
+
+for ($_p = 0; $_p < 10; print $_p, $_p++){}
+
+
+
+$geography = array("Tomskya oblast'" => array("Tomsk","Kopilovo","Loskutovo"),
+		"Novosibirskaya oblast'" => array("Novosibirsk","Bolotnoe","Lokti"),
+		"Krasnoyarskuy kray" => array("Krasnoyarsk", "Kuskun", "Zheleznogorsk")); 
+
+
 
 ?>
   </body>
