@@ -262,8 +262,6 @@ $geography = array("Tomskya oblast'" => array("Tomsk","Kopilovo","Loskutovo"),
 		"Novosibirskaya oblast'" => array("Novosibirsk","Bolotnoe","Lokti"),
 		"Krasnoyarskuy kray" => array("Krasnoyarsk", "Kuskun", "Zheleznogorsk")); 
 
-
-
 ?>
   </body>
 </html>
